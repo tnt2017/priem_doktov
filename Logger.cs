@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System;
 using System.IO;
 using System.Reflection;
+using System.Configuration;
 
 namespace test111
 {
@@ -14,12 +15,19 @@ namespace test111
         //----------------------------------------------------------
         // Статический метод записи строки в файл лога без переноса
         //----------------------------------------------------------
+
+ 
+
         public static void Write(string text)
         {
+            string KassaLogPath = ConfigurationManager.AppSettings["KassaLogPath"];
+            if (KassaLogPath == "")
+                KassaLogPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
             DateTime t = DateTime.Now;
             string dt = t.ToString("dd.MM.yyyy");
 
-            using (StreamWriter sw = new StreamWriter(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\log_" + dt + ".txt", true))
+            using (StreamWriter sw = new StreamWriter(KassaLogPath + "\\log_" + dt + ".txt", true))
             {
                 sw.Write(text);
             }
@@ -30,10 +38,14 @@ namespace test111
         //---------------------------------------------------------
         public static void WriteLine(string message)
         {
+            string KassaLogPath = ConfigurationManager.AppSettings["KassaLogPath"];
+            if (KassaLogPath == "")
+                KassaLogPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+
             DateTime t = DateTime.Now;
             string dt = t.ToString("dd.MM.yyyy");
 
-            using (StreamWriter sw = new StreamWriter(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\log_" + dt + ".txt", true))
+            using (StreamWriter sw = new StreamWriter(KassaLogPath + "\\log_" + dt + ".txt", true))
             {
                 sw.WriteLine(String.Format("{0,-23} {1}", DateTime.Now.ToString() + ":", message));
             }
