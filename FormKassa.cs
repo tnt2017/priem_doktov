@@ -72,6 +72,7 @@ namespace test111
 
         DrvFR Driver;
         int KassPwd;
+        string KassaLogPath;
         string ztime="17:30";
 
         public FormKassa()
@@ -163,9 +164,10 @@ namespace test111
                 Driver.Password = 2187;
             else
                 Driver.Password = 30;*/
-
-
+                
             Driver.Password = Convert.ToInt32(ConfigurationManager.AppSettings["KassPwd"]);
+            KassaLogPath = ConfigurationManager.AppSettings["KassaLogPath"];
+
             Logger.WriteLine(dt.ToString() + " пароль = " + Driver.Password);
 
             ztime=ConfigurationManager.AppSettings["ZReport"];
