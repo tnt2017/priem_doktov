@@ -1,0 +1,503 @@
+29.10.21 12:20:29:      Connect start
+29.10.21 12:20:29:      ServerVersion: {0}3.35.5
+29.10.21 12:20:29:      State: {0}Open
+29.10.21 12:20:29:      Connect end
+29.10.21 12:20:29:      open tovsheet 210265586
+29.10.21 12:20:40:      FindTovId by code 4609057528015
+29.10.21 12:20:40:      Rows.Count > 0
+29.10.21 12:20:40:      Rows.Count > 1
+29.10.21 12:20:41:      FindTovId by code 4609057528015
+29.10.21 12:20:41:      Rows.Count > 0
+29.10.21 12:20:41:      Rows.Count > 1
+29.10.21 12:20:41:      FindTovId by code 4609057528015
+29.10.21 12:20:42:      Rows.Count > 0
+29.10.21 12:20:42:      Rows.Count > 1
+29.10.21 12:21:33:      FindTovId by code 4609057528015
+29.10.21 12:21:34:      Rows.Count > 0
+29.10.21 12:21:34:      Rows.Count > 1
+29.10.21 12:21:39:      FindTovId by code 44609057528015
+29.10.21 12:21:39:      Database is empty
+29.10.21 12:21:59:      Товар не найден
+29.10.21 12:22:07:      FindTovId by code 4609057528015
+29.10.21 12:22:08:      Rows.Count > 0
+29.10.21 12:22:08:      Rows.Count > 1
+29.10.21 12:22:14:      FindTovId by code 44609057528015
+29.10.21 12:22:14:      Database is empty
+29.10.21 12:22:15:      Товар не найден
+29.10.21 12:22:40:      Connect start
+29.10.21 12:22:40:      ServerVersion: {0}3.35.5
+29.10.21 12:22:40:      State: {0}Open
+29.10.21 12:22:40:      Connect end
+29.10.21 12:22:40:      open tovsheet 210265586
+29.10.21 12:22:44:      FindTovId by code 4609057528015
+29.10.21 12:22:44:      Rows.Count > 0
+29.10.21 12:22:44:      Rows.Count > 1
+29.10.21 12:23:11:      FindTovId by code 4601313011378
+29.10.21 12:23:11:      Rows.Count > 0
+29.10.21 12:23:11:      picked_tovs Add idl
+29.10.21 12:23:18:      FindTovId by code 4601313011378
+29.10.21 12:23:18:      Rows.Count > 0
+29.10.21 12:23:18:      picked_tovs[210116544043]++
+29.10.21 12:23:20:      FindTovId by code 4601313011378
+29.10.21 12:23:20:      Rows.Count > 0
+29.10.21 12:23:20:      picked_tovs[210116544043]++
+29.10.21 12:24:36:      FindTovId by code 4607005240941
+29.10.21 12:24:36:      Rows.Count > 0
+29.10.21 12:24:36:      Rows.Count > 1
+29.10.21 12:25:39:      Connect start
+29.10.21 12:25:39:      ServerVersion: {0}3.35.5
+29.10.21 12:25:39:      State: {0}Open
+29.10.21 12:25:39:      Connect end
+29.10.21 12:25:39:      open tovsheet 210265586
+29.10.21 12:25:43:      FindTovId by code 4609057528015
+29.10.21 12:25:43:      Rows.Count > 0
+29.10.21 12:25:43:      Rows.Count > 1
+29.10.21 12:25:52:      FindTovId by code 4601313011378
+29.10.21 12:25:52:      Rows.Count > 0
+29.10.21 12:25:52:      picked_tovs Add idl
+29.10.21 12:25:55:      FindTovId by code 4601313011378
+29.10.21 12:25:55:      Rows.Count > 0
+29.10.21 12:25:55:      picked_tovs[210116544043]++
+29.10.21 12:31:36:      Connect start
+29.10.21 12:31:37:      ServerVersion: {0}3.35.5
+29.10.21 12:31:37:      State: {0}Open
+29.10.21 12:31:37:      Connect end
+29.10.21 12:31:37:      open tovsheet 210265586
+29.10.21 12:31:40:      FindTovId by code 4601313011378
+29.10.21 12:31:40:      Rows.Count > 0
+29.10.21 12:32:33:      Connect start
+29.10.21 12:32:33:      ServerVersion: {0}3.35.5
+29.10.21 12:32:33:      State: {0}Open
+29.10.21 12:32:33:      Connect end
+29.10.21 12:32:33:      open tovsheet 210265586
+29.10.21 12:32:37:      FindTovId by code 4601313011378
+29.10.21 12:32:37:      Rows.Count > 0
+29.10.21 12:32:37:      picked_tovs Add idl
+29.10.21 12:35:19:      Connect start
+29.10.21 12:35:19:      ServerVersion: {0}3.35.5
+29.10.21 12:35:19:      State: {0}Open
+29.10.21 12:35:19:      Connect end
+29.10.21 12:35:19:      open tovsheet 210265586
+29.10.21 12:35:25:      FindTovId by code 4601313011378
+29.10.21 12:35:26:      Rows.Count > 0
+29.10.21 12:35:26:      picked_tovs Add idl
+29.10.21 12:47:00:      Connect start
+29.10.21 12:47:00:      ServerVersion: {0}3.35.5
+29.10.21 12:47:00:      State: {0}Open
+29.10.21 12:47:00:      Connect end
+29.10.21 12:47:00:      open tovsheet 210265586
+29.10.21 12:47:14:      Connect start
+29.10.21 12:47:14:      ServerVersion: {0}3.35.5
+29.10.21 12:47:14:      State: {0}Open
+29.10.21 12:47:14:      Connect end
+29.10.21 12:47:14:      open tovsheet 210265586
+29.10.21 12:49:44:      Connect start
+29.10.21 12:49:44:      ServerVersion: {0}3.35.5
+29.10.21 12:49:44:      State: {0}Open
+29.10.21 12:49:44:      Connect end
+29.10.21 12:49:44:      open tovsheet 210265586
+29.10.21 12:50:30:      Connect start
+29.10.21 12:50:30:      ServerVersion: {0}3.35.5
+29.10.21 12:50:30:      State: {0}Open
+29.10.21 12:50:30:      Connect end
+29.10.21 12:50:30:      open tovsheet 210265586
+29.10.21 12:51:45:      Connect start
+29.10.21 12:51:45:      ServerVersion: {0}3.35.5
+29.10.21 12:51:45:      State: {0}Open
+29.10.21 12:51:45:      Connect end
+29.10.21 12:51:45:      open tovsheet 210265586
+29.10.21 12:58:31:      Connect start
+29.10.21 12:58:31:      ServerVersion: {0}3.35.5
+29.10.21 12:58:31:      State: {0}Open
+29.10.21 12:58:31:      Connect end
+29.10.21 12:58:31:      open tovsheet 210265586
+29.10.21 13:01:18:      FindTovId by code 4601313011378
+29.10.21 13:01:18:      Rows.Count > 0
+29.10.21 13:01:18:      picked_tovs Add idl
+29.10.21 13:17:57:      Connect start
+29.10.21 13:17:57:      ServerVersion: {0}3.35.5
+29.10.21 13:17:57:      State: {0}Open
+29.10.21 13:17:57:      Connect end
+29.10.21 13:17:57:      open tovsheet 210265586
+29.10.21 13:19:20:      Connect start
+29.10.21 13:19:20:      ServerVersion: {0}3.35.5
+29.10.21 13:19:20:      State: {0}Open
+29.10.21 13:19:20:      Connect end
+29.10.21 13:19:20:      open tovsheet 210265586
+29.10.21 13:19:44:      FindTovId by code 4601313011378
+29.10.21 13:19:44:      Rows.Count > 0
+29.10.21 13:19:44:      picked_tovs Add idl
+29.10.21 13:22:12:      Connect start
+29.10.21 13:22:12:      ServerVersion: {0}3.35.5
+29.10.21 13:22:12:      State: {0}Open
+29.10.21 13:22:12:      Connect end
+29.10.21 13:22:12:      open tovsheet 
+29.10.21 13:22:43:      Connect start
+29.10.21 13:22:43:      ServerVersion: {0}3.35.5
+29.10.21 13:22:43:      State: {0}Open
+29.10.21 13:22:43:      Connect end
+29.10.21 13:22:43:      open tovsheet 210265586
+29.10.21 13:22:50:      FindTovId by code 4601313011378
+29.10.21 13:22:51:      Rows.Count > 0
+29.10.21 13:22:51:      picked_tovs Add idl
+29.10.21 13:23:14:      FindTovId by code 4607005240941
+29.10.21 13:23:14:      Rows.Count > 0
+29.10.21 13:23:14:      Rows.Count > 1
+29.10.21 13:24:31:      FindTovId by code 4607005240941
+29.10.21 13:24:31:      Rows.Count > 0
+29.10.21 13:24:31:      Rows.Count > 1
+29.10.21 13:24:36:      FindTovId by code 4607005240941
+29.10.21 13:24:36:      Rows.Count > 0
+29.10.21 13:24:36:      Rows.Count > 1
+29.10.21 13:24:47:      FindTovId by code 4607005240941
+29.10.21 13:24:47:      Rows.Count > 0
+29.10.21 13:24:47:      Rows.Count > 1
+29.10.21 14:13:43:      Connect start
+29.10.21 14:13:44:      ServerVersion: {0}3.35.5
+29.10.21 14:13:44:      State: {0}Open
+29.10.21 14:13:44:      Connect end
+29.10.21 14:13:44:      open tovsheet 210265586
+29.10.21 14:13:47:      FindTovId by code 4601313011378
+29.10.21 14:13:47:      Rows.Count > 0
+29.10.21 14:13:47:      picked_tovs Add idl
+29.10.21 14:13:51:      FindTovId by code 4601313011378
+29.10.21 14:13:51:      Rows.Count > 0
+29.10.21 14:13:51:      picked_tovs[210116544043]++
+29.10.21 14:13:52:      FindTovId by code 4601313011378
+29.10.21 14:13:52:      Rows.Count > 0
+29.10.21 14:13:52:      picked_tovs[210116544043]++
+29.10.21 14:13:52:      FindTovId by code 4601313011378
+29.10.21 14:13:53:      Rows.Count > 0
+29.10.21 14:13:53:      picked_tovs[210116544043]++
+29.10.21 14:13:53:      FindTovId by code 4601313011378
+29.10.21 14:13:53:      Rows.Count > 0
+29.10.21 14:13:53:      picked_tovs[210116544043]++
+29.10.21 14:13:54:      FindTovId by code 4601313011378
+29.10.21 14:13:54:      Rows.Count > 0
+29.10.21 14:13:54:      picked_tovs[210116544043]++
+29.10.21 14:15:33:      FindTovId by code 466000614011546600061401154660006140115
+29.10.21 14:15:33:      Database is empty
+29.10.21 14:16:22:      Connect start
+29.10.21 14:16:22:      ServerVersion: {0}3.35.5
+29.10.21 14:16:22:      State: {0}Open
+29.10.21 14:16:22:      Connect end
+29.10.21 14:16:22:      open tovsheet 210265586
+29.10.21 14:16:25:      FindTovId by code 4660006140115
+29.10.21 14:16:25:      Rows.Count > 0
+29.10.21 14:16:25:      picked_tovs Add idl
+29.10.21 14:16:27:      FindTovId by code 4660006140115
+29.10.21 14:16:27:      Rows.Count > 0
+29.10.21 14:16:27:      picked_tovs[210116544004]++
+29.10.21 14:16:45:      FindTovId by code 4609097501016
+29.10.21 14:16:45:      Rows.Count > 0
+29.10.21 14:16:45:      picked_tovs Add idl
+29.10.21 14:16:46:      FindTovId by code 4609097501016
+29.10.21 14:16:47:      Rows.Count > 0
+29.10.21 14:16:47:      picked_tovs[210116544021]++
+29.10.21 14:26:12:      Connect start
+29.10.21 14:26:12:      ServerVersion: {0}3.35.5
+29.10.21 14:26:12:      State: {0}Open
+29.10.21 14:26:12:      Connect end
+29.10.21 14:26:12:      open tovsheet 210265586
+29.10.21 14:26:18:      FindTovId by code 4607005240941
+29.10.21 14:26:18:      Rows.Count > 0
+29.10.21 14:26:18:      Rows.Count > 1
+29.10.21 14:29:05:      Connect start
+29.10.21 14:29:05:      ServerVersion: {0}3.35.5
+29.10.21 14:29:05:      State: {0}Open
+29.10.21 14:29:05:      Connect end
+29.10.21 14:29:05:      open tovsheet 210265586
+29.10.21 14:29:09:      FindTovId by code 4607005240941
+29.10.21 14:29:09:      Rows.Count > 0
+29.10.21 14:29:09:      Rows.Count > 1
+29.10.21 14:29:16:      FindTovId by code 4607005240941
+29.10.21 14:29:16:      Rows.Count > 0
+29.10.21 14:29:16:      Rows.Count > 1
+29.10.21 14:29:42:      Connect start
+29.10.21 14:29:42:      ServerVersion: {0}3.35.5
+29.10.21 14:29:42:      State: {0}Open
+29.10.21 14:29:42:      Connect end
+29.10.21 14:29:43:      open tovsheet 210265586
+29.10.21 14:29:45:      FindTovId by code 4607005240941
+29.10.21 14:29:45:      Rows.Count > 0
+29.10.21 14:29:45:      Rows.Count > 1
+29.10.21 14:29:48:      FindTovId by code 4607005240941
+29.10.21 14:29:49:      Rows.Count > 0
+29.10.21 14:29:49:      Rows.Count > 1
+29.10.21 14:29:52:      FindTovId by code 4607005240941
+29.10.21 14:29:52:      Rows.Count > 0
+29.10.21 14:29:52:      Rows.Count > 1
+29.10.21 14:30:21:      FindTovId by code 4607036359513
+29.10.21 14:30:21:      Rows.Count > 0
+29.10.21 14:30:21:      picked_tovs Add idl
+29.10.21 14:30:22:      FindTovId by code 4607036359513
+29.10.21 14:30:22:      Rows.Count > 0
+29.10.21 14:30:22:      picked_tovs[210116544023]++
+29.10.21 14:30:23:      FindTovId by code 4607036359513
+29.10.21 14:30:23:      Rows.Count > 0
+29.10.21 14:30:23:      picked_tovs[210116544023]++
+29.10.21 14:30:24:      FindTovId by code 4607036359513
+29.10.21 14:30:24:      Rows.Count > 0
+29.10.21 14:30:24:      picked_tovs[210116544023]++
+29.10.21 14:30:25:      FindTovId by code 4607036359513
+29.10.21 14:30:25:      Rows.Count > 0
+29.10.21 14:30:25:      picked_tovs[210116544023]++
+29.10.21 14:30:29:      FindTovId by code 4607005240941
+29.10.21 14:30:29:      Rows.Count > 0
+29.10.21 14:30:29:      Rows.Count > 1
+29.10.21 14:30:33:      FindTovId by code 4607005240941
+29.10.21 14:30:33:      Rows.Count > 0
+29.10.21 14:30:33:      Rows.Count > 1
+29.10.21 14:30:37:      FindTovId by code 4607005240941
+29.10.21 14:30:37:      Rows.Count > 0
+29.10.21 14:30:37:      Rows.Count > 1
+29.10.21 14:30:40:      FindTovId by code 4607005240941
+29.10.21 14:30:40:      Rows.Count > 0
+29.10.21 14:30:40:      Rows.Count > 1
+29.10.21 14:30:43:      FindTovId by code 4607005240941
+29.10.21 14:30:43:      Rows.Count > 0
+29.10.21 14:30:43:      Rows.Count > 1
+29.10.21 14:30:46:      FindTovId by code 4607005240941
+29.10.21 14:30:46:      Rows.Count > 0
+29.10.21 14:30:46:      Rows.Count > 1
+29.10.21 14:30:49:      FindTovId by code 4607005240941
+29.10.21 14:30:49:      Rows.Count > 0
+29.10.21 14:30:49:      Rows.Count > 1
+29.10.21 14:31:50:      FindTovId by code 4607036359513
+29.10.21 14:31:50:      Rows.Count > 0
+29.10.21 14:31:50:      picked_tovs[210116544023]++
+29.10.21 14:33:59:      FindTovId by code 4609057528015
+29.10.21 14:33:59:      Rows.Count > 0
+29.10.21 14:33:59:      Rows.Count > 1
+29.10.21 14:34:04:      FindTovId by code 4609057528015
+29.10.21 14:34:04:      Rows.Count > 0
+29.10.21 14:34:04:      Rows.Count > 1
+29.10.21 14:34:08:      FindTovId by code 4609057528015
+29.10.21 14:34:08:      Rows.Count > 0
+29.10.21 14:34:08:      Rows.Count > 1
+29.10.21 14:34:11:      FindTovId by code 4609057528015
+29.10.21 14:34:11:      Rows.Count > 0
+29.10.21 14:34:11:      Rows.Count > 1
+29.10.21 14:34:17:      FindTovId by code 4609057528015
+29.10.21 14:34:17:      Rows.Count > 0
+29.10.21 14:34:17:      Rows.Count > 1
+29.10.21 14:35:00:      Connect start
+29.10.21 14:35:00:      ServerVersion: {0}3.35.5
+29.10.21 14:35:00:      State: {0}Open
+29.10.21 14:35:00:      Connect end
+29.10.21 14:35:00:      open tovsheet 210265586
+29.10.21 14:37:05:      Connect start
+29.10.21 14:37:05:      ServerVersion: {0}3.35.5
+29.10.21 14:37:05:      State: {0}Open
+29.10.21 14:37:05:      Connect end
+29.10.21 14:37:05:      open tovsheet 210265586
+29.10.21 14:38:28:      Connect start
+29.10.21 14:38:28:      ServerVersion: {0}3.35.5
+29.10.21 14:38:28:      State: {0}Open
+29.10.21 14:38:28:      Connect end
+29.10.21 14:38:28:      open tovsheet 210265586
+29.10.21 14:38:31:      FindTovId by code 4609057528015
+29.10.21 14:38:31:      Rows.Count > 0
+29.10.21 14:38:31:      Rows.Count > 1
+29.10.21 14:40:18:      Connect start
+29.10.21 14:40:18:      ServerVersion: {0}3.35.5
+29.10.21 14:40:18:      State: {0}Open
+29.10.21 14:40:18:      Connect end
+29.10.21 14:40:18:      open tovsheet 210265586
+29.10.21 14:40:36:      FindTovId by code 8710522370506
+29.10.21 14:40:36:      Rows.Count > 0
+29.10.21 14:40:36:      Rows.Count > 1
+29.10.21 14:41:46:      FindTovId by code 8710522370506
+29.10.21 14:41:46:      Rows.Count > 0
+29.10.21 14:41:46:      Rows.Count > 1
+29.10.21 14:41:49:      FindTovId by code 8710522370506
+29.10.21 14:41:49:      Rows.Count > 0
+29.10.21 14:41:49:      Rows.Count > 1
+29.10.21 14:45:21:      Connect start
+29.10.21 14:45:21:      ServerVersion: {0}3.35.5
+29.10.21 14:45:21:      State: {0}Open
+29.10.21 14:45:21:      Connect end
+29.10.21 14:45:21:      open tovsheet 210265586
+29.10.21 14:45:24:      FindTovId by code 8710522370506
+29.10.21 14:45:24:      Rows.Count > 0
+29.10.21 14:45:24:      Rows.Count > 1
+29.10.21 14:49:01:      Connect start
+29.10.21 14:49:01:      ServerVersion: {0}3.35.5
+29.10.21 14:49:01:      State: {0}Open
+29.10.21 14:49:01:      Connect end
+29.10.21 14:49:01:      open tovsheet 210265586
+29.10.21 14:49:05:      FindTovId by code 8710522370506
+29.10.21 14:49:05:      Rows.Count > 0
+29.10.21 14:49:05:      Rows.Count > 1
+29.10.21 14:52:43:      Connect start
+29.10.21 14:52:43:      ServerVersion: {0}3.35.5
+29.10.21 14:52:43:      State: {0}Open
+29.10.21 14:52:43:      Connect end
+29.10.21 14:52:43:      open tovsheet 210265586
+29.10.21 14:52:45:      FindTovId by code 8710522370506
+29.10.21 14:52:45:      Rows.Count > 0
+29.10.21 14:52:45:      Rows.Count > 1
+29.10.21 14:54:05:      Connect start
+29.10.21 14:54:06:      ServerVersion: {0}3.35.5
+29.10.21 14:54:06:      State: {0}Open
+29.10.21 14:54:06:      Connect end
+29.10.21 14:54:06:      open tovsheet 210265586
+29.10.21 14:54:08:      FindTovId by code 8710522370506
+29.10.21 14:54:08:      Error: SQL logic error
+no such column: NOMEKL
+29.10.21 14:54:11:      Товар не найден
+29.10.21 14:54:31:      Connect start
+29.10.21 14:54:32:      ServerVersion: {0}3.35.5
+29.10.21 14:54:32:      State: {0}Open
+29.10.21 14:54:32:      Connect end
+29.10.21 14:54:32:      open tovsheet 210265586
+29.10.21 14:54:34:      FindTovId by code 8710522370506
+29.10.21 14:54:35:      Rows.Count > 0
+29.10.21 14:54:35:      picked_tovs Add idl
+29.10.21 14:54:37:      FindTovId by code 8710522370506
+29.10.21 14:54:38:      Rows.Count > 0
+29.10.21 14:54:38:      picked_tovs[210116544042]++
+29.10.21 14:54:38:      FindTovId by code 8710522370506
+29.10.21 14:54:39:      Rows.Count > 0
+29.10.21 14:54:39:      picked_tovs[210116544042]++
+29.10.21 14:54:45:      FindTovId by code 4607036359513
+29.10.21 14:54:45:      Rows.Count > 0
+29.10.21 14:54:45:      picked_tovs Add idl
+29.10.21 14:54:47:      FindTovId by code 4607036359513
+29.10.21 14:54:48:      Rows.Count > 0
+29.10.21 14:54:48:      picked_tovs[210116544023]++
+29.10.21 14:54:49:      FindTovId by code 4607036359513
+29.10.21 14:54:49:      Rows.Count > 0
+29.10.21 14:54:49:      picked_tovs[210116544023]++
+29.10.21 14:54:50:      FindTovId by code 4607036359513
+29.10.21 14:54:50:      Rows.Count > 0
+29.10.21 14:54:50:      picked_tovs[210116544023]++
+29.10.21 14:54:51:      FindTovId by code 4607036359513
+29.10.21 14:54:52:      Rows.Count > 0
+29.10.21 14:54:52:      picked_tovs[210116544023]++
+29.10.21 14:58:45:      Connect start
+29.10.21 14:58:45:      ServerVersion: {0}3.35.5
+29.10.21 14:58:45:      State: {0}Open
+29.10.21 14:58:45:      Connect end
+29.10.21 14:58:45:      open tovsheet 210265586
+29.10.21 14:58:59:      FindTovId by code 4607036359513
+29.10.21 14:58:59:      Rows.Count > 0
+29.10.21 14:58:59:      picked_tovs Add idl
+29.10.21 14:59:05:      FindTovId by code 4607005240941
+29.10.21 14:59:05:      Rows.Count > 0
+29.10.21 14:59:05:      Rows.Count > 1
+29.10.21 15:03:21:      Connect start
+29.10.21 15:03:21:      ServerVersion: {0}3.35.5
+29.10.21 15:03:21:      State: {0}Open
+29.10.21 15:03:21:      Connect end
+29.10.21 15:03:21:      open tovsheet 210265586
+29.10.21 15:03:24:      FindTovId by code 8710522370506
+29.10.21 15:03:24:      Rows.Count > 0
+29.10.21 15:03:24:      picked_tovs Add idl
+29.10.21 15:20:17:      Connect start
+29.10.21 15:20:17:      ServerVersion: {0}3.35.5
+29.10.21 15:20:17:      State: {0}Open
+29.10.21 15:20:17:      Connect end
+29.10.21 15:20:17:      open tovsheet 210265586
+29.10.21 15:21:33:      Connect start
+29.10.21 15:21:33:      ServerVersion: {0}3.35.5
+29.10.21 15:21:33:      State: {0}Open
+29.10.21 15:21:33:      Connect end
+29.10.21 15:21:33:      open tovsheet 210265586
+29.10.21 15:25:59:      Connect start
+29.10.21 15:25:59:      ServerVersion: {0}3.35.5
+29.10.21 15:25:59:      State: {0}Open
+29.10.21 15:25:59:      Connect end
+29.10.21 15:25:59:      open tovsheet 210265586
+29.10.21 16:34:13:      Connect start
+29.10.21 16:34:13:      ServerVersion: {0}3.35.5
+29.10.21 16:34:13:      State: {0}Open
+29.10.21 16:34:13:      Connect end
+29.10.21 16:34:13:      open tovsheet 210265586
+29.10.21 16:34:28:      FindTovId by code 4605476000248
+29.10.21 16:34:28:      Rows.Count > 0
+29.10.21 16:34:28:      Rows.Count > 1
+29.10.21 16:34:37:      FindTovId by code 4605476000248
+29.10.21 16:34:37:      Rows.Count > 0
+29.10.21 16:34:37:      Rows.Count > 1
+29.10.21 16:34:43:      FindTovId by code 4605476000248
+29.10.21 16:34:43:      Rows.Count > 0
+29.10.21 16:34:43:      Rows.Count > 1
+29.10.21 16:35:33:      Connect start
+29.10.21 16:35:33:      ServerVersion: {0}3.35.5
+29.10.21 16:35:33:      State: {0}Open
+29.10.21 16:35:33:      Connect end
+29.10.21 16:35:33:      open tovsheet 210265586
+29.10.21 16:35:37:      FindTovId by code 4609097501016
+29.10.21 16:35:38:      Rows.Count > 0
+29.10.21 16:35:38:      picked_tovs Add idl
+29.10.21 16:35:41:      FindTovId by code 4609097501016
+29.10.21 16:35:42:      Rows.Count > 0
+29.10.21 16:35:42:      picked_tovs[210116544021]++
+29.10.21 16:36:04:      FindTovId by code 46054760002484605476000248
+29.10.21 16:36:04:      Database is empty
+29.10.21 16:36:05:      Товар не найден
+29.10.21 16:36:18:      Connect start
+29.10.21 16:36:18:      ServerVersion: {0}3.35.5
+29.10.21 16:36:18:      State: {0}Open
+29.10.21 16:36:18:      Connect end
+29.10.21 16:36:19:      open tovsheet 210265586
+29.10.21 16:36:22:      FindTovId by code 4605476000248
+29.10.21 16:36:22:      Rows.Count > 0
+29.10.21 16:36:22:      picked_tovs Add idl
+29.10.21 16:36:22:      FindTovId by code 4605476000248
+29.10.21 16:36:22:      Rows.Count > 0
+29.10.21 16:36:22:      picked_tovs[210116544020]++
+29.10.21 16:36:23:      FindTovId by code 4605476000248
+29.10.21 16:36:23:      Rows.Count > 0
+29.10.21 16:36:23:      picked_tovs[210116544020]++
+29.10.21 16:37:09:      FindTovId by code 8710522370506
+29.10.21 16:37:09:      Rows.Count > 0
+29.10.21 16:37:09:      picked_tovs Add idl
+29.10.21 16:37:10:      FindTovId by code 8710522370506
+29.10.21 16:37:10:      Rows.Count > 0
+29.10.21 16:37:10:      picked_tovs[210116544042]++
+29.10.21 16:37:10:      FindTovId by code 8710522370506
+29.10.21 16:37:10:      Rows.Count > 0
+29.10.21 16:37:10:      picked_tovs[210116544042]++
+29.10.21 16:37:29:      Connect start
+29.10.21 16:37:29:      ServerVersion: {0}3.35.5
+29.10.21 16:37:29:      State: {0}Open
+29.10.21 16:37:29:      Connect end
+29.10.21 16:37:29:      open tovsheet 21
+29.10.21 16:37:35:      Connect start
+29.10.21 16:37:35:      ServerVersion: {0}3.35.5
+29.10.21 16:37:35:      State: {0}Open
+29.10.21 16:37:35:      Connect end
+29.10.21 16:37:35:      open tovsheet 210265586
+29.10.21 16:37:45:      FindTovId by code 8717644190524
+29.10.21 16:37:45:      Rows.Count > 0
+29.10.21 16:37:45:      picked_tovs Add idl
+29.10.21 16:37:46:      FindTovId by code 8717644190524
+29.10.21 16:37:46:      Rows.Count > 0
+29.10.21 16:37:46:      picked_tovs[210116544041]++
+29.10.21 16:38:17:      FindTovId by code 4609057528015
+29.10.21 16:38:17:      Rows.Count > 0
+29.10.21 16:38:17:      picked_tovs Add idl
+29.10.21 16:38:18:      FindTovId by code 4609057528015
+29.10.21 16:38:18:      Rows.Count > 0
+29.10.21 16:38:18:      picked_tovs[210116544019]++
+29.10.21 16:38:18:      FindTovId by code 4609057528015
+29.10.21 16:38:18:      Rows.Count > 0
+29.10.21 16:38:18:      picked_tovs[210116544019]++
+29.10.21 16:38:19:      FindTovId by code 4609057528015
+29.10.21 16:38:19:      Rows.Count > 0
+29.10.21 16:38:19:      picked_tovs[210116544019]++
+29.10.21 16:38:20:      FindTovId by code 4609057528015
+29.10.21 16:38:20:      Rows.Count > 0
+29.10.21 16:38:20:      picked_tovs[210116544019]++
+29.10.21 16:38:38:      Connect start
+29.10.21 16:38:38:      ServerVersion: {0}3.35.5
+29.10.21 16:38:38:      State: {0}Open
+29.10.21 16:38:38:      Connect end
+29.10.21 16:38:38:      open tovsheet 210265586
+29.10.21 16:42:55:      Connect start
+29.10.21 16:42:55:      ServerVersion: {0}3.35.5
+29.10.21 16:42:55:      State: {0}Open
+29.10.21 16:42:55:      Connect end
+29.10.21 16:42:55:      open tovsheet 210265586

@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0915A783-1B7B-4192-ABC8-C606ED4C8A24}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test111</RootNamespace>
+    <AssemblyName>priem_doktov</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.2.0.0, Culture=neutral, PublicKeyToken=5f09bda868cc39e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.1.2.0.0\lib\net20\BarcodeLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.DrvFRLib, Version=1.3.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.DrvFRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfiumViewer, Version=2.10.0.0, Culture=neutral, PublicKeyToken=91e4789cfb0609e0, processorArchitecture=MSIL">
+      <HintPath>..\packages\PdfiumViewer.2.10.0.0\lib\net20\PdfiumViewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RawPrint, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RawPrint.0.5.0\lib\net40\RawPrint.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.4.0.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.PDF.7.10.4\lib\net40\Spire.License.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=7.10.4.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.PDF.7.10.4\lib\net40\Spire.Pdf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\..\sqlite-netFx40-binary-Win32-2010-1.0.114.0\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DBClass.cs" />
+    <Compile Include="EDI.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAuditTovsheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuditTovsheet.Designer.cs">
+      <DependentUpon>FormAuditTovsheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComplekt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComplekt.Designer.cs">
+      <DependentUpon>FormComplekt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComplektAdr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComplektAdr.Designer.cs">
+      <DependentUpon>FormComplektAdr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDoc.Designer.cs">
+      <DependentUpon>FormDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCreditHist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCreditHist.Designer.cs">
+      <DependentUpon>FormCreditHist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmpCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmpCard.Designer.cs">
+      <DependentUpon>FormEmpCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmps.Designer.cs">
+      <DependentUpon>FormEmps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGenerateSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGenerateSQL.Designer.cs">
+      <DependentUpon>FormGenerateSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInputKol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInputKol.Designer.cs">
+      <DependentUpon>FormInputKol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInventOst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInventOst.Designer.cs">
+      <DependentUpon>FormInventOst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJournal.Designer.cs">
+      <DependentUpon>FormJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKassa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKassa.Designer.cs">
+      <DependentUpon>FormKassa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListNotMatched.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListNotMatched.Designer.cs">
+      <DependentUpon>FormListNotMatched.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListWhenFound.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListWhenFound.Designer.cs">
+      <DependentUpon>FormListWhenFound.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewDoc.Designer.cs">
+      <DependentUpon>FormNewDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewOrder.Designer.cs">
+      <DependentUpon>FormNewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewStat.Designer.cs">
+      <DependentUpon>FormNewStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOFD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOFD.Designer.cs">
+      <DependentUpon>FormOFD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOptions.Designer.cs">
+      <DependentUpon>FormOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrgCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrgCard.Designer.cs">
+      <DependentUpon>FormOrgCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrgs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrgs.Designer.cs">
+      <DependentUpon>FormOrgs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormParserXML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormParserXML.Designer.cs">
+      <DependentUpon>FormParserXML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPlatDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPlatDoc.Designer.cs">
+      <DependentUpon>FormPlatDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewPriemka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewPriemka.Designer.cs">
+      <DependentUpon>FormNewPriemka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPriemka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPriemka.Designer.cs">
+      <DependentUpon>FormPriemka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReturns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReturns.Designer.cs">
+      <DependentUpon>FormReturns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormScanner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormScanner.Designer.cs">
+      <DependentUpon>FormScanner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSector.Designer.cs">
+      <DependentUpon>FormSector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSheetsChecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSheetsChecker.Designer.cs">
+      <DependentUpon>FormSheetsChecker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSQLite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSQLite.Designer.cs">
+      <DependentUpon>FormSQLite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStat.Designer.cs">
+      <DependentUpon>FormStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovAudit.Designer.cs">
+      <DependentUpon>FormTovAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovCard.Designer.cs">
+      <DependentUpon>FormTovCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovLines.Designer.cs">
+      <DependentUpon>FormTovLines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovlist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovlist.Designer.cs">
+      <DependentUpon>FormTovlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovMovement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovMovement.Designer.cs">
+      <DependentUpon>FormTovMovement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovsheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovsheet.Designer.cs">
+      <DependentUpon>FormTovsheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovsheets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovsheets.Designer.cs">
+      <DependentUpon>FormTovsheets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovsheetsPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovsheetsPrint.Designer.cs">
+      <DependentUpon>FormTovsheetsPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTovsWithOneBarcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTovsWithOneBarcode.Designer.cs">
+      <DependentUpon>FormTovsWithOneBarcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTripCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTripCard.Designer.cs">
+      <DependentUpon>FormTripCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTrips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTrips.Designer.cs">
+      <DependentUpon>FormTrips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTripsLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTripsLeave.Designer.cs">
+      <DependentUpon>FormTripsLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Logger.cs" />
+    <Compile Include="MyDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DBSqlite.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuditTovsheet.resx">
+      <DependentUpon>FormAuditTovsheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComplekt.resx">
+      <DependentUpon>FormComplekt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComplektAdr.resx">
+      <DependentUpon>FormComplektAdr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDoc.resx">
+      <DependentUpon>FormDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCreditHist.resx">
+      <DependentUpon>FormCreditHist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpCard.resx">
+      <DependentUpon>FormEmpCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmps.resx">
+      <DependentUpon>FormEmps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGenerateSQL.resx">
+      <DependentUpon>FormGenerateSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputKol.resx">
+      <DependentUpon>FormInputKol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInventOst.resx">
+      <DependentUpon>FormInventOst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJournal.resx">
+      <DependentUpon>FormJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKassa.resx">
+      <DependentUpon>FormKassa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListNotMatched.resx">
+      <DependentUpon>FormListNotMatched.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListWhenFound.resx">
+      <DependentUpon>FormListWhenFound.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewDoc.resx">
+      <DependentUpon>FormNewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewOrder.resx">
+      <DependentUpon>FormNewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewStat.resx">
+      <DependentUpon>FormNewStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOFD.resx">
+      <DependentUpon>FormOFD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOptions.resx">
+      <DependentUpon>FormOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrgCard.resx">
+      <DependentUpon>FormOrgCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrgs.resx">
+      <DependentUpon>FormOrgs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormParserXML.resx">
+      <DependentUpon>FormParserXML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPlatDoc.resx">
+      <DependentUpon>FormPlatDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewPriemka.resx">
+      <DependentUpon>FormNewPriemka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPriemka.resx">
+      <DependentUpon>FormPriemka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReturns.resx">
+      <DependentUpon>FormReturns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormScanner.resx">
+      <DependentUpon>FormScanner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSector.resx">
+      <DependentUpon>FormSector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSheetsChecker.resx">
+      <DependentUpon>FormSheetsChecker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSQLite.resx">
+      <DependentUpon>FormSQLite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStat.resx">
+      <DependentUpon>FormStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovAudit.resx">
+      <DependentUpon>FormTovAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovCard.resx">
+      <DependentUpon>FormTovCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovLines.resx">
+      <DependentUpon>FormTovLines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovlist.resx">
+      <DependentUpon>FormTovlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovMovement.resx">
+      <DependentUpon>FormTovMovement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovsheet.resx">
+      <DependentUpon>FormTovsheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovsheets.resx">
+      <DependentUpon>FormTovsheets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovsheetsPrint.resx">
+      <DependentUpon>FormTovsheetsPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTovsWithOneBarcode.resx">
+      <DependentUpon>FormTovsWithOneBarcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTripCard.resx">
+      <DependentUpon>FormTripCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTrips.resx">
+      <DependentUpon>FormTrips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTripsLeave.resx">
+      <DependentUpon>FormTripsLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

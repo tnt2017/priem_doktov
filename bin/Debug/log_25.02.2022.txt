@@ -1,0 +1,15 @@
+25.02.22 14:40:36:      Connect start
+25.02.22 14:40:36:      ServerVersion: {0}3.35.5
+25.02.22 14:40:36:      State: {0}Open
+25.02.22 14:40:36:      Connect end
+25.02.22 14:40:36:      open tovsheet 220042254
+25.02.22 14:55:00:      Connect start
+25.02.22 14:55:00:      ServerVersion: {0}3.35.5
+25.02.22 14:55:00:      State: {0}Open
+25.02.22 14:55:00:      Connect end
+25.02.22 14:55:00:      open tovsheet 220042254
+25.02.22 17:00:39:      Connect start
+25.02.22 17:00:40:      ServerVersion: {0}3.35.5
+25.02.22 17:00:40:      State: {0}Open
+25.02.22 17:00:40:      Connect end
+25.02.22 17:00:40:      open tovsheet 220042262

@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;eDIMessage id="b429a4d3-eebf-4531-a34d-99ba1ec5f626"&gt;
+  &lt;interchangeHeader&gt;
+    &lt;sender&gt;4670032809993&lt;/sender&gt;
+    &lt;recipient&gt;4630013619997&lt;/recipient&gt;
+    &lt;documentType&gt;ORDERS&lt;/documentType&gt;
+    &lt;creationDateTime&gt;2021-02-08T05:34:58.916Z&lt;/creationDateTime&gt;
+    &lt;creationDateTimeBySender&gt;2021-02-08T12:34:56.000Z&lt;/creationDateTimeBySender&gt;
+  &lt;/interchangeHeader&gt;
+  &lt;order number="ЛГУП-003949" date="2021-02-08"&gt;
+    &lt;seller&gt;
+      &lt;gln&gt;4630013619997&lt;/gln&gt;
+      &lt;organization&gt;
+        &lt;name&gt;ООО "ТД Трианон"&lt;/name&gt;
+        &lt;inn&gt;5404374480&lt;/inn&gt;
+        &lt;kpp&gt;540401001&lt;/kpp&gt;
+      &lt;/organization&gt;
+      &lt;russianAddress&gt;
+        &lt;regionISOCode&gt;RU-NVS&lt;/regionISOCode&gt;
+        &lt;city&gt;Новосибирск г&lt;/city&gt;
+        &lt;street&gt;Станционная ул&lt;/street&gt;
+        &lt;house&gt;30а&lt;/house&gt;
+        &lt;postalCode&gt;630000&lt;/postalCode&gt;
+      &lt;/russianAddress&gt;
+    &lt;/seller&gt;
+    &lt;buyer&gt;
+      &lt;gln&gt;4670032809993&lt;/gln&gt;
+      &lt;organization&gt;
+        &lt;name&gt;ООО "Лэмон Груп"&lt;/name&gt;
+        &lt;inn&gt;5405287865&lt;/inn&gt;
+        &lt;kpp&gt;540501001&lt;/kpp&gt;
+      &lt;/organization&gt;
+      &lt;russianAddress&gt;
+        &lt;regionISOCode&gt;RU-NVS&lt;/regionISOCode&gt;
+        &lt;city&gt;Новосибирск&lt;/city&gt;
+        &lt;street&gt;Кирова&lt;/street&gt;
+        &lt;house&gt;113/2&lt;/house&gt;
+        &lt;flat&gt;25&lt;/flat&gt;
+        &lt;postalCode&gt;630008&lt;/postalCode&gt;
+      &lt;/russianAddress&gt;
+    &lt;/buyer&gt;
+    &lt;deliveryInfo&gt;
+      &lt;requestedDeliveryDateTime&gt;2021-04-04T00:00:00.000Z&lt;/requestedDeliveryDateTime&gt;
+      &lt;shipTo&gt;
+        &lt;gln&gt;4670032809894&lt;/gln&gt;
+        &lt;organization&gt;
+          &lt;name&gt;ООО "Лэмон Груп"&lt;/name&gt;
+          &lt;inn&gt;5405287865&lt;/inn&gt;
+          &lt;kpp&gt;380845013&lt;/kpp&gt;
+        &lt;/organization&gt;
+        &lt;russianAddress&gt;
+          &lt;regionISOCode&gt;RU-IRK&lt;/regionISOCode&gt;
+          &lt;city&gt;Иркутск&lt;/city&gt;
+          &lt;street&gt;Байкальская&lt;/street&gt;
+          &lt;house&gt;5&lt;/house&gt;
+        &lt;/russianAddress&gt;
+      &lt;/shipTo&gt;
+    &lt;/deliveryInfo&gt;
+    &lt;comment&gt;Сформирован автоматически обработкой "Формирование заказов по потребностям".&lt;/comment&gt;
+    &lt;lineItems&gt;
+      &lt;currencyISOCode&gt;RUB&lt;/currencyISOCode&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171324804&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00001585&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Дихлофос Сиб. 190мл Зеленый Варан*24&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;24.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;42.5500&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;51.0600&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;1021.2000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;204.2400&lt;/vATAmount&gt;
+        &lt;amount&gt;1225.4400&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607043202154&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00026435&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Брикет Ратобор тесто от мышей пакет 50гр/ВашХоз/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;30.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;13.9800&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;16.7800&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;419.5000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;83.9000&lt;/vATAmount&gt;
+        &lt;amount&gt;503.4000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240774&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00026436&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Антимоль Домовой Прошка пластины Лаванда короб 8шт/Дэзпро/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;10.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;15.7100&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;18.8500&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;157.0800&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;31.4200&lt;/vATAmount&gt;
+        &lt;amount&gt;188.5000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;2009900275806&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00002886&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Гель от тараканов Домовой Прошка шприц 15г/1/50/&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;17.9200&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;21.5000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;358.3300&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;71.6700&lt;/vATAmount&gt;
+        &lt;amount&gt;430.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;2009897679755&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00030225&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Антистатик Лана-Сибиар 180мл/24&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;48.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;40.1800&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;48.2200&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;1928.8000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;385.7600&lt;/vATAmount&gt;
+        &lt;amount&gt;2314.5600&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607002057788&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;64859&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Бальзам-маска д/вол РусПоле Красн. перец д/роста/250мл/Фратти/12&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;28.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;44.8700&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;53.8400&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;1256.2700&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;251.2500&lt;/vATAmount&gt;
+        &lt;amount&gt;1507.5200&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;2700257535055&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;66674&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Хоз. мыло Аист 72% Клас. 150г в упак./6&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;192.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;15.7300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;18.8800&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;3020.8000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;604.1600&lt;/vATAmount&gt;
+        &lt;amount&gt;3624.9600&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171466436&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00009485&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Лак д/вол Джет(3) Styling Блеск/Фиксация св/сил/фикс190мл/Си/6&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;6.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;59.5800&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;71.5000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;357.5000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;71.5000&lt;/vATAmount&gt;
+        &lt;amount&gt;429.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171002023&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00009490&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Пенка д/вол Сюжет оч/сил/фикс зел,, 160мл/Сибр/6&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;6.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;53.0300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;63.6400&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;318.2000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;63.6400&lt;/vATAmount&gt;
+        &lt;amount&gt;381.8400&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171129645&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00009491&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Пенка д/вол Сюжет сил/фикс сер,, 160мл/Сибр/24&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;6.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;53.0300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;63.6400&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;318.2000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;63.6400&lt;/vATAmount&gt;
+        &lt;amount&gt;381.8400&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607036354433&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00013131&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Брикет ГРЫЗУНОФФ тесто 6шт 100гр/Химик/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;18.1900&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;21.8300&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;363.8300&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;72.7700&lt;/vATAmount&gt;
+        &lt;amount&gt;436.6000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607036351654&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00013132&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Зерновая приманка ГРЫЗУНОФФ короб 100гр/Химик/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;11.4400&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;13.7300&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;228.8300&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;45.7700&lt;/vATAmount&gt;
+        &lt;amount&gt;274.6000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240224&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00013133&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Зерн прим-ка ДомовойПрошкаГрозаГрыз конт д/уничт грыз100гр/Дэзп&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;10.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;14.1700&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;17.0000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;141.6700&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;28.3300&lt;/vATAmount&gt;
+        &lt;amount&gt;170.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4680006990756&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00015448&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Мыло туал Детское Красавчик 75гр/Кр-дар/6&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;114.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;9.1300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;10.9500&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;1040.2500&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;208.0500&lt;/vATAmount&gt;
+        &lt;amount&gt;1248.3000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4620771971284&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00015449&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Мыло туал Краснодарское Ландыш 75гр/Кр-дар/6&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;24.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;8.8500&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;10.6200&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;212.4000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;42.4800&lt;/vATAmount&gt;
+        &lt;amount&gt;254.8800&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171507252&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00016703&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Дихлофос Сиб.200 мл унив. Варан/экон//32&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;36.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;36.9800&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;44.3700&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;1331.1000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;266.2200&lt;/vATAmount&gt;
+        &lt;amount&gt;1597.3200&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005241016&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;61721&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Мелок от тараканов Домовой Прошка 20 г&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;40.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;7.9200&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;9.5000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;316.6700&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;63.3300&lt;/vATAmount&gt;
+        &lt;amount&gt;380.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240422&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;58199&lt;/internalBuyerCode&gt;
+        &lt;description&gt;антимоль Домовой Прошка  Цитрус&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;19.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;7.0800&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;8.5000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;134.5800&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;26.9200&lt;/vATAmount&gt;
+        &lt;amount&gt;161.5000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240408&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;58200&lt;/internalBuyerCode&gt;
+        &lt;description&gt;гель Домовой Прошка Тройной удар от Тараканов&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;46.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;18.3300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;22.0000&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;843.3300&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;168.6700&lt;/vATAmount&gt;
+        &lt;amount&gt;1012.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;2746070554989&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;59870&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Лак д/волос Романтика Классил/фикс раст 3200мл/Сибиар/24&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;6.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;43.2600&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;51.9100&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;259.5500&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;51.9100&lt;/vATAmount&gt;
+        &lt;amount&gt;311.4600&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4600171448258&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;59875&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Мусс д/волос Романтика оч/сил/фикс раст экс200мл/Сиб/24&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;12.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;44.1200&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;52.9400&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;529.4000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;105.8800&lt;/vATAmount&gt;
+        &lt;amount&gt;635.2800&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240804&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00039598&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Гранулы Домовой Прошка д/уничтож грызунов 100гр/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;14.1300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;16.9500&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;282.5000&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;56.5000&lt;/vATAmount&gt;
+        &lt;amount&gt;339.0000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4607005240149&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00039600&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Гель Домовой Прошка от Тараканов шприц 30гр/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;22.9300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;27.5200&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;458.6700&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;91.7300&lt;/vATAmount&gt;
+        &lt;amount&gt;550.4000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4620015694405&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00039601&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Гель Великий Воин от тараканов/мурав шприц в кор 45гр/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;20.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;32.7400&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;39.2900&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;654.8300&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;130.9700&lt;/vATAmount&gt;
+        &lt;amount&gt;785.8000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;lineItem&gt;
+        &lt;gtin&gt;4660011273327&lt;/gtin&gt;
+        &lt;internalBuyerCode&gt;УП-00039602&lt;/internalBuyerCode&gt;
+        &lt;description&gt;Ловушка Help д/тараканов клеевая/10&lt;/description&gt;
+        &lt;requestedQuantity unitOfMeasure="PCE"&gt;10.000&lt;/requestedQuantity&gt;
+        &lt;netPrice&gt;24.6300&lt;/netPrice&gt;
+        &lt;netPriceWithVAT&gt;29.5500&lt;/netPriceWithVAT&gt;
+        &lt;netAmount&gt;246.2500&lt;/netAmount&gt;
+        &lt;vATRate&gt;20&lt;/vATRate&gt;
+        &lt;vATAmount&gt;49.2500&lt;/vATAmount&gt;
+        &lt;amount&gt;295.5000&lt;/amount&gt;
+      &lt;/lineItem&gt;
+      &lt;totalSumExcludingTaxes&gt;16199.74&lt;/totalSumExcludingTaxes&gt;
+      &lt;totalVATAmount&gt;3239.96&lt;/totalVATAmount&gt;
+      &lt;totalAmount&gt;19439.70&lt;/totalAmount&gt;
+    &lt;/lineItems&gt;
+  &lt;/order&gt;
+&lt;/eDIMessage&gt;</value>
+  </data>
+</root>
